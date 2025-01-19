@@ -1,0 +1,16 @@
+{
+  "name": "airesumeenhancer",
+  "version": "1.0.0",
+  "description": "AI-Powered Resume Enhancer",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\"",
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "dependencies": {
+    "all": "^0.0.0"
+  }
+}
